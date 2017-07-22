@@ -1,0 +1,17 @@
+doctype html
+html
+	head
+		meta(charset='utf-8')
+		meta(name='viewport', content='width-device-width, initial-scale=1.0')
+		title #{title}
+		link(rel='stylesheet', type='text/css', href='/stylesheets/style.css')
+	body
+		.app
+			.contenedor-izquierdo
+				input(type='input', name='magnament', id='magnament')
+				input(type='button', value='Enviar', id='load')
+				ul.lista-canciones
+			.contenedor-derecho
+				audio.audio(controls='')
+		script(type='text/javascript', src='/jquery/jquery.js')
+		script(type='text/javascript', src='/javascripts/app.js')
