@@ -19,7 +19,7 @@ Copy and paste the magnet link of the torrent, the songs will be listed. Listen 
 
 ---
 
-![OOP](https://imgur.com/TRRAdbX)
+![OOP](https://imgur.com/TRRAdbX.png)
 
 ---
 MIT © 2017 
