@@ -19,7 +19,7 @@ Copy and paste the magnet link of the torrent, the songs will be listed. Listen 
 
 ---
 
-![OOP](CoffeeTime/oop.svg)
+![OOP](https://imgur.com/TRRAdbX)
 
 ---
 MIT © 2017 
