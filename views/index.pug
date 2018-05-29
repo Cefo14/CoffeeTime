@@ -1,17 +1,25 @@
-doctype html
-html
-	head
-		meta(charset='utf-8')
-		meta(name='viewport', content='width-device-width, initial-scale=1.0')
-		title #{title}
-		link(rel='stylesheet', type='text/css', href='/stylesheets/style.css')
-	body
-		.app
-			.contenedor-izquierdo
-				input(type='input', name='magnament', id='magnament')
-				input(type='button', value='Enviar', id='load')
-				ul.lista-canciones
-			.contenedor-derecho
-				audio.audio(controls='')
-		script(type='text/javascript', src='/jquery/jquery.js')
-		script(type='text/javascript', src='/javascripts/app.js')
+extends layout.pug
+block content
+	nav.navbar.navbar-expand-md.navbar-dark.bg-dark.fixed-top
+		a.navbar-brand(href='#')
+			i.fas.fa-coffee
+		button.navbar-toggler(type='button', data-toggle='collapse', data-target='#navbarsExampleDefault', aria-controls='navbarsExampleDefault', aria-expanded='false', aria-label='Toggle navigation')
+			span.navbar-toggler-icon
+		#navbarsExampleDefault.collapse.navbar-collapse
+			ul.navbar-nav.mr-auto
+				li.nav-item.active
+					a.nav-link(href='#', id='home')
+						| Coffee Time 
+						span.sr-only (current)
+	main.container(role='main')
+		.row
+			.col-sm-10.offset-sm-1.text-center
+				h1 Search
+					i.fas.fa-coffee
+				form.form-inline.justify-content-center
+					.form-group
+						input.form-control(type='text', placeholder='Search', aria-label='Search', id='name')
+						button.btn.btn-outline-success(type='button', id='search') Search
+				#menu.list-group
+	footer.footer
+		audio(controls='')

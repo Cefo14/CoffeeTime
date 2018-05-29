@@ -1,0 +1,23 @@
+body {
+	padding-top: 5rem;
+	background-image: url(../img/bg.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.list-group
+{
+	margin: 10px;
+}
+
+.list-group-item-action{
+	cursor: pointer;
+}
