@@ -21,9 +21,7 @@ Go to `localhost:3000` and you're in.
 ## Usage
 Just get started by searching your favorite artist/band.
 
----
-
-![OOP](https://imgur.com/TRRAdbX.png)
+![screenshot](https://i.imgur.com/cgyiyQq.png)
 
 ---
 
